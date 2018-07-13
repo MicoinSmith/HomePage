@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: STKaiti;
+}
+body{
+  background: url(../assets/bg.jpg) no-repeat;
+  height: 100%;
+}
+.meBox{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background-color: rgba(221, 221, 221, 0);
+}
+.me{
+  border: 3px solid rgb(8, 238, 252);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-image: url("../assets/徐小帅.jpg");
+  background-size: cover;
+}
+.me>img{
+  margin-right: 30%;
+  height: 100%;
+}
+.inform{
+  margin-top: 60px;
+  text-indent: -0.23rem;
+  color: rgb(0, 252, 252);
+  font-size: 20px;
+}
+.welcomeSpeechBox{
+  position: fixed;
+  width: 760px;
+  color: rgb(0, 252, 252);
+  text-align: center;
+  font-size: 23px;
+  left: 50px;
+  bottom: 100px;
+}
